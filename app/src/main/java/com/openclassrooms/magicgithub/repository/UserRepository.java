@@ -12,11 +12,10 @@ public class UserRepository {
     public UserRepository(ApiService apiService) {
         this.apiService = apiService;
     }
-    public List<User> getUsers()
-    {
-        // TODO: A modifier
 
-        return apiService.getUsers() ;
+    public List<User> getUsers() {
+        // TODO: A modifier
+        return apiService.getUsers();
     }
 
     public void generateRandomUser() {
